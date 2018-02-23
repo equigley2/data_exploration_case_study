@@ -23,7 +23,7 @@ costs.
    Because these data are in the public domain we ask that your group
    does not use code from any published analyses.  There are
    publically available Jupyter notebooks and more, but please treat
-   this as a learning experience.  How far can you got with your
+   this as a learning experience.  How far can you get with your
    group's investigative ability?
 
 The goal of this exercise is to take the concepts, tools and
@@ -58,3 +58,18 @@ couple of lines of code to get you started.
    df['Month'] = df['Date'].apply(lambda x: (re.split("/",str(x))[0]))
    df['Day'] = df['Date'].apply(lambda x: (re.split("/",str(x))[1]))
    df['Year'] = df['Date'].apply(lambda x: (re.split("/",str(x))[2]))
+
+
+Deliverable
+--------------
+
+At the end of the day your group will be expected to present for 5
+minutes on your findings.  You can do this directly from your Jupyter
+notebooks.
+
+Cover the following in your presentation.
+
+   1. Talk about what you planned to accomplish
+   2. How you organized your selves as a team
+   3. What you accomplished
+   4. Anything new you learned along the way
