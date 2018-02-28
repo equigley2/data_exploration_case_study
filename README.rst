@@ -62,7 +62,7 @@ couple of lines of code to get you started.
 NBA Basketball data set
 -----------------------------------------------
 The nba_data.csv includes average per-game data for all NBA players between the
-2013-17 seasons. Features include points, rebounds, blocks, assists, etc. Explore
+2013-17 seasons. Fields include points, rebounds, blocks, assists, etc. Explore
 trends in specific fields over time or compare differences in teams, positions,
 and seasons, while utilizing groupbys, pivot tables, and plotting. Be aware
 that there are missing data that might affect your findings, so create a plan of
