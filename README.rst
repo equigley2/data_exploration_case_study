@@ -62,8 +62,7 @@ couple of lines of code to get you started.
 NBA Basketball data set
 -----------------------------------------------
 The NBA_data.csv includes average per-game data for all NBA players between the
-2013-17 seasons. Features include points, rebounds, assists, etc.
-[Glossary](https://en.wikipedia.org/wiki/Glossary_of_basketball_terms). Explore
+2013-17 seasons. Features include points, rebounds, blocks, assists, etc. Explore
 trends in specific fields over time or compare differences in teams, positions,
 and seasons, while utilizing groupbys, pivot tables, and plotting.
 
@@ -71,16 +70,16 @@ Before you dive in, generate some hypotheses or questions you'd like to answer.
 Here are some starter questions, although you should generate some of
 your own.
 
-    1. Who are the top-10 highest-scoring (`Points`) players in 2016.
-    2. Create a table with the average `Points` for each of the five positions
-    on each of the 30 teams (hint: pivot table).
-    3. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now
-    as opposed to five years ago?
-    4. Is there a trend in `3_Point_%` by position over the last 5 seasons?
-    5. Is there a statistically significant difference between the `Field_Goal_%`
-    of each position?
-    6. What does the relationship between `Age` and `Points` look like?
-    7. Which features are most correlated?
+1. Who are the top-10 highest-scoring (`Points`) players in 2016.
+2. Create a table with the average `Points` for each of the five positions
+on each of the 30 teams (hint: pivot table).
+3. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now
+as opposed to five years ago?
+4. Is there a trend in `3_Point_%` by position over the last 5 seasons?
+5. Is there a statistically significant difference between the `Field_Goal_%`
+of each position?
+6. What does the relationship between `Age` and `Points` look like?
+7. Which features are most correlated?
 
 Deliverable
 --------------
