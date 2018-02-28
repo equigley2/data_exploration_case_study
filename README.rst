@@ -71,19 +71,11 @@ Here are some starter questions, although you should generate some of
 your own.
 
     1. Who are the top-10 highest-scoring (`Points`) players in 2016.
-
     2. Create a table with the average `Points` for each of the five positions on each of the 30 teams (hint: pivot table).
-
-    3. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now
-    as opposed to five years ago?
-
+    3. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now as opposed to five years ago?
     4. Is there a trend in `3_Point_%` by position over the last 5 seasons?
-
-    5. Is there a statistically significant difference between the `Field_Goal_%`
-    of each position?
-
+    5. Is there a statistically significant difference between the `Field_Goal_%` of each position?
     6. What does the relationship between `Age` and `Points` look like?
-
     7. Which features are most correlated?
 
 Deliverable
