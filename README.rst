@@ -72,8 +72,7 @@ your own.
 
     1. Who are the top-10 highest-scoring (`Points`) players in 2016.
 
-    2. Create a table with the average `Points` for each of the five positions
-    on each of the 30 teams (hint: pivot table).
+    2. Create a table with the average `Points` for each of the five positions on each of the 30 teams (hint: pivot table).
 
     3. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now
     as opposed to five years ago?
