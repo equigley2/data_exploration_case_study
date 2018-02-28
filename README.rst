@@ -63,12 +63,12 @@ NBA Basketball data set
 -----------------------------------------------
 The NBA_data.csv includes average per-game data for all NBA players between the
 2013-17 seasons. Features include points, rebounds, assists, etc.
-([Glossary](https://en.wikipedia.org/wiki/Glossary_of_basketball_terms)). Explore
+[Glossary](https://en.wikipedia.org/wiki/Glossary_of_basketball_terms). Explore
 trends in specific fields over time or compare differences in teams, positions,
 and seasons, while utilizing groupbys, pivot tables, and plotting.
 
 Before you dive in, generate some hypotheses or questions you'd like to answer.
-Here are some starter questions, although you should create some of
+Here are some starter questions, although you should generate some of
 your own.
 
     1. Who are the top-10 highest-scoring (`Points`) players in 2016.
@@ -81,7 +81,6 @@ your own.
     of each position?
     6. What does the relationship between `Age` and `Points` look like?
     7. Which features are most correlated?
-
 
 Deliverable
 --------------
