@@ -39,13 +39,13 @@ spend some time coming up with a strategy.
 
   1. You could focus on comparing a subset of states/years/months
   2. You could come up with a series of summary tables
-  3. You could investigate a subset of accidents (e.g. the most expensive)  
+  3. You could investigate a subset of accidents (e.g. the most expensive)
   4. You could try to implement a systematic approach for outlier detection
   5. There are missing values in these data you could compare some different strategies for imputation
 
 Even when you are a seasoned data scientist you will need more than
 half of a day to tackle all of these so scope here is important.
-     
+
 Some of the tools that may come in useful here are: correlation
 coefficients, groupbys, pivot tables, simple plots from dataframes.
 
@@ -58,6 +58,29 @@ couple of lines of code to get you started.
    df['Month'] = df['Date'].apply(lambda x: (re.split("/",str(x))[0]))
    df['Day'] = df['Date'].apply(lambda x: (re.split("/",str(x))[1]))
    df['Year'] = df['Date'].apply(lambda x: (re.split("/",str(x))[2]))
+
+NBA Basketball data set
+-----------------------------------------------
+The NBA_data.csv includes average per-game data for all NBA players between the
+2013-17 seasons. Features include points, rebounds, assists, etc.
+([Glossary](https://en.wikipedia.org/wiki/Glossary_of_basketball_terms)). Explore
+trends in specific fields over time or compare differences in teams, positions,
+and seasons, while utilizing groupbys, pivot tables, and plotting.
+
+Before you dive in, generate some hypotheses or questions you'd like to answer.
+Here are some starter questions, although you should create some of
+your own.
+
+    1. Who are the top-10 highest-scoring (`Points`) players in 2016.
+    2. Create a table with the average `Points` for each of the five positions
+    on each of the 30 teams (hint: pivot table).
+    3. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now
+    as opposed to five years ago?
+    4. Is there a trend in `3_Point_%` by position over the last 5 seasons?
+    5. Is there a statistically significant difference between the `Field_Goal_%`
+    of each position?
+    6. What does the relationship between `Age` and `Points` look like?
+    7. Which features are most correlated?
 
 
 Deliverable
