@@ -68,8 +68,8 @@ and seasons, while utilizing groupbys, pivot tables, and plotting. Be aware
 that there are missing data that might affect your findings, so create a plan of
 how you will handle those nulls.
 
-Before you dive in, generate some hypotheses or questions you'd like to answer.
-Here are some starter questions, although you should generate some of
+Before you dive in, generate some hypotheses you can test or questions you'd like
+to answer. Here are some starter questions, although you should generate some of
 your own.
 
     1. Who are the highest-scoring (`Points`) players in each season.
