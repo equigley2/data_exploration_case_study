@@ -40,8 +40,7 @@ spend some time coming up with a strategy.
   1. You could focus on comparing a subset of states/years/months
   2. You could come up with a series of summary tables
   3. You could investigate a subset of accidents (e.g. the most expensive)
-  4. You could try to implement a systematic approach for outlier detection
-  5. There are missing values in these data you could compare some different strategies for imputation
+  4. There are missing values in these data you could compare some different strategies for imputation
 
 Even when you are a seasoned data scientist you will need more than
 half of a day to tackle all of these so scope here is important.
@@ -72,13 +71,11 @@ Before you dive in, generate some hypotheses you can test or questions you'd lik
 to answer. Here are some starter questions, although you should generate some of
 your own.
 
-    1. Who are the highest-scoring (`Points`) players in each season.
-    2. Create a table with the average `Points` for each of the five positions on each of the 30 teams (hint: pivot table).
-    3. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now as opposed to five years ago?
-    4. Is there a trend in `3_Point_%` by position over the last 5 seasons?
-    5. Is there a statistically significant difference between the `Field_Goal_%` of each position?
-    6. What does the relationship between a team's average `Points` and `Offensive Rebounds` look like?
-    7. Which features are most correlated?
+    1. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now as opposed to five years ago?
+    2. Is there a trend in `3_Point_%` by position over the last 5 seasons?
+    3. Is there a statistically significant difference between the positions with the best and worst `Field_Goal_%`?
+    4. What does the relationship between a team's average `Points` and `Offensive Rebounds` look like?
+    5. Which features are most correlated?
 
 Deliverable
 --------------
