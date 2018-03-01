@@ -39,13 +39,12 @@ spend some time coming up with a strategy.
 
   1. You could focus on comparing a subset of states/years/months
   2. You could come up with a series of summary tables
-  3. You could investigate a subset of accidents (e.g. the most expensive)  
-  4. You could try to implement a systematic approach for outlier detection
-  5. There are missing values in these data you could compare some different strategies for imputation
+  3. You could investigate a subset of accidents (e.g. the most expensive)
+  4. There are missing values in these data you could compare some different strategies for imputation
 
 Even when you are a seasoned data scientist you will need more than
 half of a day to tackle all of these so scope here is important.
-     
+
 Some of the tools that may come in useful here are: correlation
 coefficients, groupbys, pivot tables, simple plots from dataframes.
 
@@ -59,6 +58,24 @@ couple of lines of code to get you started.
    df['Day'] = df['Date'].apply(lambda x: (re.split("/",str(x))[1]))
    df['Year'] = df['Date'].apply(lambda x: (re.split("/",str(x))[2]))
 
+NBA Basketball data set
+-----------------------------------------------
+The nba_data.csv includes average per-game data for all NBA players between the
+2013-17 seasons. Fields include points, rebounds, blocks, assists, etc. Explore
+trends in specific fields over time or compare differences in teams, positions,
+and seasons, while utilizing groupbys, pivot tables, and plotting. Be aware
+that there are missing data that might affect your findings, so create a plan of
+how you will handle those nulls.
+
+Before you dive in, generate some hypotheses you can test or questions you'd like
+to answer. Here are some starter questions, although you should generate some of
+your own.
+
+    1. Are players attempting more 3-point shots (`3_Pointers_Attempted`) now as opposed to five years ago?
+    2. Is there a trend in `3_Point_%` by position over the last 5 seasons?
+    3. Is there a statistically significant difference between the positions with the best and worst `Field_Goal_%`?
+    4. What does the relationship between a team's average `Points` and `Offensive Rebounds` look like?
+    5. Which features are most correlated?
 
 Deliverable
 --------------
