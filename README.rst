@@ -5,8 +5,12 @@ Data cleaning case study
 :Authors: Galvanize DS
 :Web site: https://github.com/gSchool/ds-case-study-data-cleaning
 
+You have two options for this case study:
 
-Pipline accident data set
+1. Investigate pipeline accidents
+2. Investigate NBA statistics  
+
+Pipeline accident data set
 -----------------------------------------------
 
 The data are a kaggle data set that was released by the USDOT.
