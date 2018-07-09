@@ -86,7 +86,7 @@ Deliverable
 
 At the end of the day your group will be expected to present for 5
 minutes on your findings.  You can do this directly from your Jupyter
-notebooks.
+notebooks or your README.
 
 Cover the following in your presentation.
 
