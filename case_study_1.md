@@ -12,21 +12,21 @@
 **Exploratory Analysis:**
 * Understand the frequency of different causes of spills
 
-	![](./cause_frequency2.png )
+	![](./images/cause_frequency2.png)
 *	Explore cost statistics
 
-	![](./descriptives2.png)
+	![](./images/descriptives2.png)
 
-![](./costs.png)
+![](./images/costs.png)
 
 
 
 **Primary Analysis:**
 *	Are different types of oil spills more expensive?
 
-![](./cause_mean2.png)
+![](./images/cause_mean2.png)
 
-![](./cause_total2.png)
+![](./images/cause_total2.png)
 
 **Conclusions**
 * Some spills are most expensive than others
